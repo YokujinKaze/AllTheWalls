@@ -144,6 +144,8 @@ namespace AllTheWalls
 			new ConvertWall(ItemID.Jungle2Echo,  WallID.JungleUnsafe2),
 			new ConvertWall(ItemID.Jungle3Echo,  WallID.JungleUnsafe3),
 			new ConvertWall(ItemID.Jungle4Echo,  WallID.JungleUnsafe4),
+			new ConvertWall(ItemID.HiveWall, WallID.HiveUnsafe),
+			new ConvertWall(ItemID.LihzahrdBrickWall, WallID.LihzahrdBrickUnsafe),
 			new ConvertWall(ItemID.MushroomWall, WallID.MushroomUnsafe),
 			new ConvertWall(ItemID.SpiderEcho, WallID.SpiderUnsafe),
 			new ConvertWall(ItemID.MarbleWall,  WallID.MarbleUnsafe),
@@ -173,7 +175,6 @@ namespace AllTheWalls
 			new ConvertWall(ItemID.EmeraldEcho, WallID.EmeraldUnsafe),
 			new ConvertWall(ItemID.RubyEcho, WallID.RubyUnsafe),
 			new ConvertWall(ItemID.DiamondEcho, WallID.DiamondUnsafe),
-			new ConvertWall(ItemID.HellstoneBrickWall,  WallID.HellstoneBrickUnsafe),
 			new ConvertWall(ItemID.BlueBrickWall,  WallID.BlueDungeonUnsafe),
 			new ConvertWall(ItemID.BlueSlabWall,  WallID.BlueDungeonSlabUnsafe),
 			new ConvertWall(ItemID.BlueTiledWall,  WallID.BlueDungeonTileUnsafe),
@@ -183,9 +184,8 @@ namespace AllTheWalls
 			new ConvertWall(ItemID.PinkBrickWall, WallID.PinkDungeonUnsafe),
 			new ConvertWall(ItemID.PinkSlabWall,  WallID.PinkDungeonSlabUnsafe),
 			new ConvertWall(ItemID.PinkTiledWall, WallID.PinkDungeonTileUnsafe),
+			new ConvertWall(ItemID.HellstoneBrickWall,  WallID.HellstoneBrickUnsafe),
 			new ConvertWall(ItemID.ObsidianBrickWall, WallID.ObsidianBrickUnsafe),
-			new ConvertWall(ItemID.HiveWall, WallID.HiveUnsafe),
-			new ConvertWall(ItemID.LihzahrdBrickWall, WallID.LihzahrdBrickUnsafe),
 		};
 
 		internal IDictionary<int, int> mapOriginalWallToItemID;
